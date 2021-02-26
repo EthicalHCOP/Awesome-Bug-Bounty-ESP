@@ -9,9 +9,13 @@
 - [Programas bug bounty más concurridos.](#Programas)
 - [Herramientas usadas en el Bug bounty.](#Herramientas)
   - [Enumeración de directorios](#Enumeracion_de_directorios)
+  - [Enumeracion de dominios y subdominios](#Enumeracion_de_dom_y_subdom)
+  - [Escaners web / proxy](#Escaners_web)
+  - [Escaners de CMS](#Escaners_de_CMS)
+  - [Motores de busqueda de hosts](#Motores_de_busqueda_de_hosts)
+  - [Analisis y Explotacion de vulnerabilidades](#Analisis_y_Explotacion_de_vulnerabilidades)
+  - [Otras](#Otras)
 - [Metodologias implementadas.](#Metodologias)
-- [Tips para un bug bounty exitoso.](#Tips)
-- [Primeros pasos para el Bug Bounty.](#Primeros_pasos)
 
 ##
 
@@ -105,11 +109,18 @@ Una de las recomendaciones más comunes para las personas que estamos iniciando 
 
 Dependiendo de la necesidad del tester, hay herramientas que nos podran ayudar a encontrar una falla o a analizar algo en especifico, algunas de estas son:
 
+Deserializacion:
+- [Java-Deserialization-Cheat-Sheet](https://github.com/GrrrDog/Java-Deserialization-Cheat-Sheet)
+- [ysoserial](https://github.com/frohoff/ysoserial)
+- [ysoserial.net](https://github.com/pwntester/ysoserial.net)
+- [Java Deserialization Scanner](https://github.com/federicodotta/Java-Deserialization-Scanner)
+
 Enumeracion de directorios:
 - [Dirb](https://github.com/v0re/dirb)
 - [DirBuster](https://github.com/KajanM/DirBuster)
 - [DirHunt](https://github.com/Nekmo/dirhunt)
 - [Dirsearch](https://github.com/maurosoria/dirsearch)
+- [Gobuster](https://github.com/OJ/gobuster)
 
 Enumeracion de dominios y subdominios:
 - [Dig](https://github.com/enjoyhot/dig)
@@ -117,7 +128,7 @@ Enumeracion de dominios y subdominios:
 - [Subfinder](https://github.com/projectdiscovery/subfinder)
 - [Amass](https://github.com/OWASP/Amass)
 
-Escaners web:
+Escaners web / proxy:
 - [Burp Suite](https://portswigger.net/burp/communitydownload)
 - [ZAP](https://www.zaproxy.org/)
 - [IronWasp](https://resources.infosecinstitute.com/ironwasp-part-1-2/)
@@ -135,7 +146,7 @@ Motores de busqueda de hosts:
 - [Zoomeye](https://www.zoomeye.org/)
 - [GreyNoise](https://viz.greynoise.io/)
 
-Analisis y Explotacion de vulnerabilidades:
+Analisis / Explotacion de vulnerabilidades:
 
 - XSS
     - [XSSHunter](https://github.com/mandatoryprogrammer/xsshunter)
@@ -151,7 +162,12 @@ Analisis y Explotacion de vulnerabilidades:
     - [LFISuite](https://github.com/D35m0nd142/LFISuite)
     - [Kadimus](https://github.com/P0cL4bs/Kadimus)
     - [Fimap](https://tools.kali.org/web-applications/fimap) 
- 
+- JWT
+    - [JWT.io](https://jwt.io/)
+    - [JWT_Tool](https://github.com/ticarpi/jwt_tool)
+    - [jwtcrack](https://github.com/Sjord/jwtcrack)
+    - [c-jwt-cracker](https://github.com/brendan-rius/c-jwt-cracker)
+     
 Y algunas otras herramientas como:
 - [Curl](https://curl.haxx.se/download.html): 
   Script en linea de comandos para transferencia de datos.
@@ -183,6 +199,11 @@ Es de recalcar que no hay ninguna herramienta mágica que te servirá a la prime
 
 
 ### Metodologias implementadas.
-### Tips para un Bug Bounty exitoso.
-### Primeros pasos para el Bug Bounty.
+
+En el 2020, se ha lanzado la metodologia Bug Bounty en la version 4, sin embargo, a lo largo de diferentes sitios web y comunidades se pueden encontrar diversos aportes acerca de metodologias implementadas. Estas son algunas:
+-[The Bug Hunter's Methodology v4.02 by jhaddix](https://www.youtube.com/watch?v=gIz_yn0Uvb8)
+-[The Bug Hunter's Methodology v4 by 0x0G](https://www.youtube.com/watch?v=qLTe6Z10vj8)
+-[Newbie bug bounty hunter recon methodology](https://igbinosuneric.medium.com/newbie-bug-bounty-hunter-recon-methodology-971396531cbc)
+-[The Bug Hunter's Methodology (TBHM)](https://github.com/jhaddix/tbhm)
+-[Bug Hunting Methodology (part-1)Updated on 4-Jan-2020](https://blog.usejournal.com/bug-hunting-methodology-part-1-91295b2d2066)
 
