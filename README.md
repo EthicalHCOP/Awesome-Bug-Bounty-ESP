@@ -201,13 +201,13 @@ Es de recalcar que no hay ninguna herramienta mágica que te servirá a la prime
 ### Metodologias implementadas.
 
 En el 2020, se ha lanzado la metodologia Bug Bounty en la version 4, sin embargo, a lo largo de diferentes sitios web y comunidades se pueden encontrar diversos aportes acerca de metodologias implementadas. Estas son algunas:
--[The Bug Hunter's Methodology v4.02 by jhaddix](https://www.youtube.com/watch?v=gIz_yn0Uvb8)
+- [The Bug Hunter's Methodology v4.02 by jhaddix](https://www.youtube.com/watch?v=gIz_yn0Uvb8)
 
--[The Bug Hunter's Methodology v4 by 0x0G](https://www.youtube.com/watch?v=qLTe6Z10vj8)
+- [The Bug Hunter's Methodology v4 by 0x0G](https://www.youtube.com/watch?v=qLTe6Z10vj8)
 
--[Newbie bug bounty hunter recon methodology](https://igbinosuneric.medium.com/newbie-bug-bounty-hunter-recon-methodology-971396531cbc)
+- [Newbie bug bounty hunter recon methodology](https://igbinosuneric.medium.com/newbie-bug-bounty-hunter-recon-methodology-971396531cbc)
 
--[The Bug Hunter's Methodology (TBHM)](https://github.com/jhaddix/tbhm)
+- [The Bug Hunter's Methodology (TBHM)](https://github.com/jhaddix/tbhm)
 
--[Bug Hunting Methodology (part-1)Updated on 4-Jan-2020](https://blog.usejournal.com/bug-hunting-methodology-part-1-91295b2d2066)
+- [Bug Hunting Methodology (part-1)Updated on 4-Jan-2020](https://blog.usejournal.com/bug-hunting-methodology-part-1-91295b2d2066)
 
